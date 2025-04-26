@@ -105,7 +105,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
             <?php
             // 以下の不具合により導入見送り
             // https://wp-cocoon.com/community/postid/83950/
-            if (false): ?>
+            if (true): ?>
               <div class="indent<?php echo get_not_allowed_form_class(is_featured_image_from_title_enable(), true); ?>">
                 <?php
                 generate_checkbox_tag(OP_FEATURED_IMAGE_FROM_TITLE_DEFAULT_ENABLE , is_featured_image_from_title_default_enable(), __( 'チェックボックスをデフォルトで選択する', THEME_NAME ));
